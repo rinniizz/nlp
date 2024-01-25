@@ -23,7 +23,6 @@ with open(csv_file_path, 'w', newline='', encoding='utf-8-sig') as csv_file:
     csv_writer = csv.writer(csv_file)
 
     # เขียนหัวข้อคอลัมน์
-    csv_writer.writerow(['text', 'sentiment'])
 
     # เขียนข้อมูลลงในไฟล์ CSV
     for i in range(len(dat['text'])):
